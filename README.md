@@ -1,12 +1,5 @@
 # L5-DE-Data-Pipelines-T1
 
-Here is a `README.md` file tailored to your project and instructions. It assumes this repository is the starting point for a data engineering task using SQLite within GitHub Codespaces.
-
----
-
-````markdown
-# User Data Pipeline – SQLite in GitHub Codespaces
-
 Welcome to the starter repository for designing and implementing a user data pipeline project. This project leverages SQLite within a GitHub Codespaces development environment to simulate building a simple yet extensible data pipeline.
 
 ## 🚀 Project Overview
@@ -63,7 +56,7 @@ Your objective is to:
 
    ```bash
    python connect.py
-````
+   ```
 
 ---
 
@@ -73,6 +66,9 @@ Your objective is to:
 ├── .devcontainer/         # Codespaces config
 │   ├── devcontainer.json
 │   └── Dockerfile
+├── data/                  
+│   ├── UK User Data.csv   # User data
+│   └── UK-User-LoginTS    # User login data
 ├── init_db.sql            # Initial schema and test data for SQLite
 ├── connect.py             # Python script to query the database
 ├── requirements.txt       # Python package requirements
