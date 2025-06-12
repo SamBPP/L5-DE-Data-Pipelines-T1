@@ -6,7 +6,10 @@
   "postCreateCommand": "pip install -r requirements.txt && sqlite3 data.db < init_db.sql",
   "customizations": {
     "vscode": {
-      "extensions": ["ms-python.python"]
+      "extensions": [
+        "ms-python.python",
+        "mechatroner.rainbow-csv"
+      ]
     }
   },
   "features": {}
