@@ -1,0 +1,13 @@
+{
+  "name": "SQLite Dev Environment",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "postCreateCommand": "pip install -r requirements.txt && sqlite3 data.db < init_db.sql",
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-python.python"]
+    }
+  },
+  "features": {}
+}
