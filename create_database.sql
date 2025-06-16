@@ -29,5 +29,4 @@ CREATE TABLE IF NOT EXISTS logins (
     login_id INTEGER PRIMARY KEY AUTOINCREMENT,
     username TEXT,
     login_timestamp DATETIME,
-    FOREIGN KEY (login_id) REFERENCES users(user_uid)
 );
