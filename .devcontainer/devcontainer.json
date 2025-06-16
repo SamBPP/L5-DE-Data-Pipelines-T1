@@ -3,7 +3,7 @@
   "build": {
     "dockerfile": "Dockerfile"
   },
-  "postCreateCommand": "echo 'Installing requirements...' && pip install --upgrade pip && pip install -r requirements.txt && echo 'Creating databse...' && sqlite3 data.db < init_db.sql",
+  "postCreateCommand": "echo 'Installing requirements...' && pip install --upgrade pip && pip install -r requirements.txt",
   "customizations": {
     "vscode": {
       "extensions": [
